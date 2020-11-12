@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./javaScript/functions.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Site Busca</title>
+</head>
+
+<body>
+    <div class="global">
+        <header>
+            <a href="https://github.com/Marceggl" target="_blank"><img src="logoGit.png" alt="logoGitHub"></a>
+        </header>
+        <main>
+            <article>
+                <form action="">
+                    <div class="input-field">
+                        <input type="text" id="entrada" onblur="this.value=''">
+                        <label for="entrada">Modelo ou código do veículo</label>
+                    </div>
+                </form>
+                <div class="meinho">
+                    <div id="search"></div>
+                </div>
+                <div class="meinho table"></div>
+                <div class="info">
+                    <p>Digite a marca de um carro para aparecer todos os modelos desta marca</p>
+                    <p>Write the brand of a vehicle to show all the models of that brand</p>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <p>Link do GitHub -> <a href="https://github.com/Marceggl" target="_blank">Marceggl</a></a>
+            </p>
+            <p class="esconde"> | Você esta numa tela pequena com menos de 800px</p>
+        </footer>
+    </div>
+    <script src="./javaScript/search.js"></script>
+</body>
+
+</html>
